@@ -2,8 +2,8 @@ require "formula"
 
 class Tmuxide < Formula
   homepage 'https://github.com/frankjmattia/tmuxide'
-  url 'https://frankjmattia.github.io/tmuxide/tmuxide-0.0.3.f.tar.gz'
-  sha1 '429151d3f18fe04fd0b5520b2b2f674af6203d2c'
+  url 'https://frankjmattia.github.io/tmuxide/tmuxide-0.0.3.g.tar.gz'
+  sha1 '27f3bfdb51632bbd8007b5ea587adbc6d4554dfe'
 
   depends_on 'gnu-getopt'
 
