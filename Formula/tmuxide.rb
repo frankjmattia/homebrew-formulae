@@ -2,8 +2,8 @@ require "formula"
 
 class Tmuxide < Formula
   homepage 'https://github.com/frankjmattia/tmuxide'
-  url 'https://frankjmattia.github.io/tmuxide/tmuxide-0.0.4.tar.gz'
-  sha1 '131c40e4709377d6ec5af409940dd489f0fcbe44'
+  url 'https://frankjmattia.github.io/tmuxide/tmuxide-0.0.5.tar.gz'
+  sha1 'abc865052d3af300a0c00aacbd3add7becdba8ff'
 
   depends_on 'gnu-getopt'
 
@@ -12,9 +12,6 @@ class Tmuxide < Formula
                           "--prefix=#{prefix}"
 
     system 'make', 'install'
-
-    bin.install_symlink "#{libexec}/tmuxide"
-    bin.install_symlink "#{libexec}/log-pane"
   end
 
   test do
